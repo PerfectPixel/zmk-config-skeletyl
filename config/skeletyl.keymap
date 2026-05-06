@@ -19,6 +19,15 @@
         ╰──────────┴──────────╯         */
 
 / {
+    behaviors {
+        slash_qmark: slash_qmark {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp DE_SLASH>, <&kp DE_QMARK>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+    };
+
     combos {
         compatible = "zmk,combos";
 
@@ -44,7 +53,7 @@
             bindings = <
                 &kp Q          &kp W       &kp F       &kp P          &kp B        &kp J  &kp L          &kp U          &kp DE_Y      &kp DE_SQT
                 &hml LCTRL A   &hml LALT R &hml LGUI S &hml LSHIFT T  &kp G        &kp M  &hmr RSHIFT N  &hmr RGUI E    &hmr LALT I   &hmr RCTRL O
-                &kp DE_Z       &kp X       &kp C       &kp D          &kp V        &kp K  &kp H          &kp DE_COMMA   &kp DE_DOT    &kp DE_SLASH
+                &kp DE_Z       &kp X       &kp C       &kp D          &kp V        &kp K  &kp H          &kp DE_COMMA   &kp DE_DOT    &slash_qmark
                                   &kp ESC  &lt NAV SPACE  &kp TAB        &lt NUM_SYM ENTER  &kp BSPC  &kp LC(UP)
             >;
         };
