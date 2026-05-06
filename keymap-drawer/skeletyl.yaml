@@ -30,7 +30,7 @@ layers:
   - H
   - ','
   - .
-  - /
+  - {t: /, s: '((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE))))'}
   - ESC
   - {t: SPACE, h: '1'}
   - TAB
