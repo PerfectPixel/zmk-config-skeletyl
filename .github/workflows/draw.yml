@@ -1,0 +1,18 @@
+name: Render keymaps
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "config/skeletyl.keymap"
+      - "config/*.dtsi"
+      - "keymap_drawer.config.yaml"
+
+jobs:
+  draw:
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    permissions:
+      contents: write
+    with:
+      keymap_patterns: "config/skeletyl.keymap"
+      output_folder: "keymap-drawer"
