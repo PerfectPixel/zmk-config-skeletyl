@@ -11,6 +11,7 @@ parse_config:
     "&kp DE_COMMA": ","
     "&kp DE_DOT": "."
     "&kp DE_SLASH": "/"
+    "&slash_qmark": {t: "/", s: "?"}
     "&kp DE_MINUS": "-"
     "&kp DE_PLUS": "+"
     "&kp DE_ASTRK": "*"
