@@ -114,11 +114,7 @@ layers:
 combos:
 - p: [0, 10, 20]
   k: {t: BT, h: '0'}
-  a: top
-  o: 0.3
-  d: true
+  a: left
 - p: [9, 19, 29]
   k: {t: BT, h: '1'}
-  a: top
-  o: 0.3
-  d: true
+  a: right
