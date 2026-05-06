@@ -52,7 +52,7 @@
         NAV {
             bindings = <
                 &trans         &trans      &trans      &trans         &trans       &trans     &trans         &kp UP         &trans        &trans
-                &trans         &trans      &trans      &trans         &trans       &trans     &kp LEFT       &kp DOWN       &kp RIGHT     &trans
+                &kp LCTRL      &kp LALT    &kp LGUI    &kp LSHIFT     &trans       &trans     &kp LEFT       &kp DOWN       &kp RIGHT     &trans
                 &trans         &trans      &trans      &trans         &trans       &trans     &trans         &trans         &trans        &trans
                                        &trans   &trans   &trans          &trans   &trans   &trans
             >;
