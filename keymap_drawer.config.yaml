@@ -1,13 +1,9 @@
 parse_config:
   zmk_combos:
     combo_bt0:
-      align: top
-      offset: 0.3
-      dendron: true
+      align: left
     combo_bt1:
-      align: top
-      offset: 0.3
-      dendron: true
+      align: right
   raw_binding_map:
     "&kp DE_Y": "Y"
     "&kp DE_Z": "Z"
