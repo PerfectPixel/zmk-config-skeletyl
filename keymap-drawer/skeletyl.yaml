@@ -48,10 +48,10 @@ layers:
   - UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LCTRL
+  - LALT
+  - LGUI
+  - LSHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
