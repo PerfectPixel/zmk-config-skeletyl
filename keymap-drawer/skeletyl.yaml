@@ -31,10 +31,10 @@ layers:
   - ','
   - .
   - {t: /, s: '?'}
-  - ESC
-  - {t: SPACE, h: '1'}
-  - TAB
-  - {t: ENTER, h: '2'}
+  - {t: ESC, h: '2'}
+  - {t: SPACE, h: '3'}
+  - {t: TAB, h: '1'}
+  - ENTER
   - BSPC
   - Ctl+UP
   '1':
@@ -69,46 +69,83 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   '2':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '-'
   - '7'
   - '8'
   - '9'
   - /
-  - ^
-  - '!'
-  - '@'
-  - '#'
-  - $
+  - LCTRL
+  - LALT
+  - LGUI
+  - LSHIFT
+  - {t: ▽, type: trans}
   - +
   - '4'
   - '5'
   - '6'
   - '*'
-  - '='
-  - (
-  - )
-  - '['
-  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - .
   - '1'
   - '2'
   - '3'
   - _
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - {t: ▽, type: trans}
+  '3':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ^
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - LCTRL
+  - LALT
+  - LGUI
+  - LSHIFT
+  - {t: ▽, type: trans}
+  - '='
+  - (
+  - )
+  - '['
+  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - \
   - '{'
   - '}'
   - <
   - '>'
   - {t: ▽, type: trans}
-  - '0'
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
