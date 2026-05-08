@@ -7,7 +7,8 @@
 
 #define BASE    0
 #define NAV     1
-#define NUM_SYM 2
+#define NUM     2
+#define SYM     3
 
 /*   36 KEY MATRIX / LAYOUT MAPPING
 
@@ -54,7 +55,7 @@
                 &kp Q          &kp W       &kp F       &kp P          &kp B        &kp J  &kp L          &kp U          &kp DE_Y      &kp DE_SQT
                 &hml LCTRL A   &hml LALT R &hml LGUI S &hml LSHIFT T  &kp G        &kp M  &hmr RSHIFT N  &hmr RGUI E    &hmr LALT I   &hmr RCTRL O
                 &kp DE_Z       &kp X       &kp C       &kp D          &kp V        &kp K  &kp H          &kp DE_COMMA   &kp DE_DOT    &slash_qmark
-                                  &kp ESC  &lt NAV SPACE  &kp TAB        &lt NUM_SYM ENTER  &kp BSPC  &kp LC(UP)
+                          &lt NUM ESC  &lt SYM SPACE  &lt NAV TAB        &kp ENTER  &kp BSPC  &kp LC(UP)
             >;
         };
 
@@ -67,12 +68,21 @@
             >;
         };
 
-        NUM_SYM {
+        NUM {
             bindings = <
-                &kp DE_MINUS   &kp N7      &kp N8      &kp N9         &kp DE_SLASH    &kp DE_CARET   &kp DE_EXCL    &kp DE_AT      &kp DE_HASH   &kp DE_DLLR
-                &kp DE_PLUS    &kp N4      &kp N5      &kp N6         &kp DE_ASTRK    &kp DE_EQUAL   &kp DE_LPAR    &kp DE_RPAR    &kp DE_LBKT   &kp DE_RBKT
-                &kp DE_DOT     &kp N1      &kp N2      &kp N3         &kp DE_UNDER    &kp DE_BSLH    &kp DE_LBRC    &kp DE_RBRC    &kp DE_LT     &kp DE_GT
-                                       &trans   &kp N0   &trans          &trans   &trans   &trans
+                &trans         &trans      &trans      &trans         &trans       &kp DE_MINUS   &kp N7         &kp N8         &kp N9        &kp DE_SLASH
+                &kp LCTRL      &kp LALT    &kp LGUI    &kp LSHIFT     &trans       &kp DE_PLUS    &kp N4         &kp N5         &kp N6        &kp DE_ASTRK
+                &trans         &trans      &trans      &trans         &trans       &kp DE_DOT     &kp N1         &kp N2         &kp N3        &kp DE_UNDER
+                                       &trans   &trans   &trans          &trans   &kp N0   &trans
+            >;
+        };
+
+        SYM {
+            bindings = <
+                &trans         &trans      &trans      &trans         &trans       &kp DE_CARET   &kp DE_EXCL    &kp DE_AT      &kp DE_HASH   &kp DE_DLLR
+                &kp LCTRL      &kp LALT    &kp LGUI    &kp LSHIFT     &trans       &kp DE_EQUAL   &kp DE_LPAR    &kp DE_RPAR    &kp DE_LBKT   &kp DE_RBKT
+                &trans         &trans      &trans      &trans         &trans       &kp DE_BSLH    &kp DE_LBRC    &kp DE_RBRC    &kp DE_LT     &kp DE_GT
+                                       &trans   &trans   &trans          &trans   &trans   &trans
             >;
         };
     };
