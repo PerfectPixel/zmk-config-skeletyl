@@ -304,6 +304,16 @@ path.combo {
 <a href="#x_x">
 <text x="785" y="137" class="combo hold layer-activator">1</text>
 </a></g>
+<g class="combo combopos-2">
+<path d="M392,126 l-346,-53" class="combo"/>
+<path d="M392,126 l346,-53" class="combo"/>
+<path d="M392,126 l-346,53" class="combo"/>
+<path d="M392,126 l346,53" class="combo"/>
+<rect rx="6" ry="6" x="378" y="113" width="28" height="26" class="combo"/>
+<text x="392" y="126" class="combo tap">
+<tspan x="392" dy="-0.6em">BT</tspan><tspan x="392" dy="1.2em">CLR</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 351)" class="layer-1">
@@ -474,6 +484,16 @@ path.combo {
 <a href="#x_x">
 <text x="785" y="137" class="combo hold layer-activator">1</text>
 </a></g>
+<g class="combo combopos-2">
+<path d="M392,126 l-346,-53" class="combo"/>
+<path d="M392,126 l346,-53" class="combo"/>
+<path d="M392,126 l-346,53" class="combo"/>
+<path d="M392,126 l346,53" class="combo"/>
+<rect rx="6" ry="6" x="378" y="113" width="28" height="26" class="combo"/>
+<text x="392" y="126" class="combo tap">
+<tspan x="392" dy="-0.6em">BT</tspan><tspan x="392" dy="1.2em">CLR</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 702)" class="layer-2">
@@ -640,6 +660,16 @@ path.combo {
 <a href="#x_x">
 <text x="785" y="137" class="combo hold layer-activator">1</text>
 </a></g>
+<g class="combo combopos-2">
+<path d="M392,126 l-346,-53" class="combo"/>
+<path d="M392,126 l346,-53" class="combo"/>
+<path d="M392,126 l-346,53" class="combo"/>
+<path d="M392,126 l346,53" class="combo"/>
+<rect rx="6" ry="6" x="378" y="113" width="28" height="26" class="combo"/>
+<text x="392" y="126" class="combo tap">
+<tspan x="392" dy="-0.6em">BT</tspan><tspan x="392" dy="1.2em">CLR</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1053)" class="layer-3">
@@ -806,6 +836,16 @@ path.combo {
 <a href="#x_x">
 <text x="785" y="137" class="combo hold layer-activator">1</text>
 </a></g>
+<g class="combo combopos-2">
+<path d="M392,126 l-346,-53" class="combo"/>
+<path d="M392,126 l346,-53" class="combo"/>
+<path d="M392,126 l-346,53" class="combo"/>
+<path d="M392,126 l346,53" class="combo"/>
+<rect rx="6" ry="6" x="378" y="113" width="28" height="26" class="combo"/>
+<text x="392" y="126" class="combo tap">
+<tspan x="392" dy="-0.6em">BT</tspan><tspan x="392" dy="1.2em">CLR</tspan>
+</text>
+</g>
 </g>
 </g>
 </svg>

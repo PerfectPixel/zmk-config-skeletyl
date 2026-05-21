@@ -155,3 +155,5 @@ combos:
 - p: [9, 19, 29]
   k: {t: BT, h: '1'}
   a: right
+- p: [0, 9, 20, 29]
+  k: BT CLR
