@@ -45,6 +45,13 @@
             bindings = <&bt BT_SEL 1>;
             require-prior-idle-ms = <150>;
         };
+
+        combo_bt_clr {
+            timeout-ms = <50>;
+            key-positions = <0 9 20 29>;
+            bindings = <&bt BT_CLR>;
+            require-prior-idle-ms = <150>;
+        };
     };
 
     keymap {
